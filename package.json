@@ -1,0 +1,23 @@
+{
+  "name": "pettangatari",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Visual Novel frontend/orchestrator for local SillyTavern",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "build": "npm run build -w frontend && npm run build -w backend",
+    "start": "npm run start -w backend",
+    "preview": "npm run build && npm run start",
+    "boneyard:build": "npm run boneyard:build -w frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

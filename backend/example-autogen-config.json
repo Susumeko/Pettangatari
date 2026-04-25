@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "automaticGeneration": {
+    "checkpoint": "animaOfficial_preview3Base.safetensors",
+    "upscaleModel": "2x-AnimeSharpV4_RCAN.safetensors",
+    "loras": [],
+    "basePrompt": "masterpiece, best quality, score_7.",
+    "negativePrompt": "",
+    "characterMainTags": "@STYLETAG, hatsune miku, twintails, aqua hair, aqua eyes",
+    "upperBodyTags": "detached sleeves, sleeveless, tie",
+    "waistTags": "pleated skirt, thighighs",
+    "openMouthTags": "",
+    "lowerBodyTags": "thighboots, high heels",
+    "expressionVariantCount": 1,
+    "cgVariantCount": 3,
+    "preferredPenetrationExpression": "ANY",
+    "preferredCgExpression": "ANY",
+    "lightingColor": "NEUTRAL",
+    "breastSize": "MEDIUM",
+    "bloomIntensity": 0.15,
+    "generateDepthMaps": true,
+    "generateMouthAnimations": false,
+    "defaultExpressions": [
+      {
+        "expression": "DEFAULT",
+        "prompt": "full body, standing, light smile, solo, looking at viewer"
+      },
+      {
+        "expression": "HAPPY",
+        "prompt": "full body, standing, happy, open mouth, solo, looking at viewer"
+      },
+      {
+        "expression": "LAUGHING",
+        "prompt": "full body, standing, laughing, open mouth, solo, looking at viewer"
+      },
+      {
+        "expression": "SAD",
+        "prompt": "full body, standing, sad, solo, looking at viewer"
+      },
+      {
+        "expression": "ANGRY",
+        "prompt": "full body, standing, angry, solo, looking at viewer"
+      },
+      {
+        "expression": "ANNOYED",
+        "prompt": "full body, standing, annoyed, solo, looking at viewer"
+      },
+      {
+        "expression": "POUTING",
+        "prompt": "full body, standing, pouting, solo, looking at viewer"
+      },
+      {
+        "expression": "THINKING",
+        "prompt": "full body, standing, thinking, solo, looking at viewer"
+      },
+      {
+        "expression": "CONFUSED",
+        "prompt": "full body, standing, confused, solo, looking at viewer"
+      },
+      {
+        "expression": "FLIRTATIOUS",
+        "prompt": "full body, standing, naughty face, seductive, solo, looking at viewer"
+      },
+      {
+        "expression": "EMBARRASSED",
+        "prompt": "full body, standing, embarrassed, solo"
+      },
+      {
+        "expression": "SHOCKED",
+        "prompt": "full body, standing, shocked, solo, looking at viewer"
+      },
+      {
+        "expression": "SCARED",
+        "prompt": "full body, standing, scared, solo, looking at viewer"
+      }
+    ],
+    "customExpressions": [
+      {
+        "triggerTag": "WAVING",
+        "prompt": "looking at viewer, full body, waving, open mouth, happy, looking at viewer"
+      }
+    ],
+    "cgDefinitions": [
+      {
+        "triggerTag": "HEADPATS",
+        "prompt": "upper body, detached hand, headpatting, closed eyes, blush, solo, from side",
+        "excludeUpperBodyTags": false,
+        "excludeWaistTags": true,
+        "excludeLowerBodyTags": true
+      }
+    ],
+    "generatedPromptBySlot": {},
+    "resumeState": null
+  }
+}
