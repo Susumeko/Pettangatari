@@ -51,6 +51,10 @@ Clone this repo, then run
 ```bat
 start-pettangatari.bat
 ```
+or
+```bat
+start-pettangatari.sh
+```
 
 ## Creating a character
 Import or create a character card on SillyTavern as you normally would, once done, open Pettangatari and click "Add character", you can then assign your SillyTavern card to that character.
