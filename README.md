@@ -61,7 +61,8 @@ Import or create a character card on SillyTavern as you normally would, once don
 Proceed by changing the tab to "Automatic Generation", here you will find everything you will need to generate your sprites and CGs, assign your character tags, upper body, waist and lower body tags, separating these fields correctly help with generating CGs correctly so that not all tags are forced in, even when not necessary (E.g: you wouldn't need lower body tags for a wholesome headpatting CG).
 
 Once you are done previewing your gens and everything looks in order, press Generate. All sprites and CGs will be queued up and will start generating.
-**THIS IS A TIME CONSUMING PROCESS DEPENDING ON AMOUNT OF VARIANTS YOU HAVE CHOSEN FOR YOUR SPRITES AND CGs**
+**THIS IS A TIME CONSUMING PROCESS DEPENDING ON THE AMOUNT OF VARIANTS YOU HAVE CHOSEN FOR YOUR SPRITES AND CGs.**
+
 My personal preferences when it comes to generating character sheets:
 - Expression variant count: 1
 - CG variant count: 3
